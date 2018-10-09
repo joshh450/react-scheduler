@@ -6,7 +6,7 @@ class Action extends Component {
         return (
             <div className={`${this.props.className} action`}>
                 { Icon('fas fa-plus-circle') }
-                { Icon('fas fa-times-circle') }
+                {/* { Icon('fas fa-times-circle') } */}
             </div>
         )
     }
