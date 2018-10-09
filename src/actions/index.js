@@ -4,7 +4,7 @@ export function fetchCourses () {
     return {
         type: FETCH_COURSES,
         payload: [
-{
+            {
                 title: "Up and Running with Redis",
                 description: "In this course you'll learn how to work with the efficient Redis database to manage key / value relationships."
             },
